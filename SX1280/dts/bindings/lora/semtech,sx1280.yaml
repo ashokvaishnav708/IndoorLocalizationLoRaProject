@@ -1,0 +1,18 @@
+# Copyright (c) 2021, Ilya Tagunov
+# SPDX-License-Identifier: Apache-2.0
+
+description: Semtech SX1280 LoRa Modem
+
+compatible: "semtech,sx1280"
+
+include: semtech,sx127x-base.yaml
+
+properties:
+  busy-gpios:
+    type: phandle-array
+    required: false
+    description: |
+      GPIO connected to the modem's BUSY signal.
+
+      This signal is active-high or active-low as
+      interpreted by the modem. 
