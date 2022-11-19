@@ -4,7 +4,7 @@
 
 ### SX1280
 
-This folder contains the drivers for Semtech's SX1280. Simply copy the content inside this folder to the **zephyr-framework** directory.
+This folder contains the drivers for Semtech's SX1280. Simply copy the content inside this folder to the **zephyr-framework** directory. This driver version contains the Basic LoRa transceive functionality and Ranging Features.
 
 ### Testbed Visulalization
 
