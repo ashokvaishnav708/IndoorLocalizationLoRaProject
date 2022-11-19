@@ -18,7 +18,7 @@ This directory contains zephyr program for Anchor devices using LoRa. It needs t
 ### Indoor_Localization_Master_v2.0
 
 This directory contains the zephyr program for Master (Central) device for Indoor Localization System. This needs to be updated whenever we introduce a new Acnhor device in the system.
-Node: Master Node contains all the information (Device IDs and Corrdinates) about Anchors and responsible for sharing the Anchor's information to Mobile device.
+Note: Master Node contains all the information (Device IDs and Corrdinates) about Anchors and responsible for sharing the Anchor's information to Mobile device.
 
 ### Indoor_Localization_Mobile_v3.0
 
