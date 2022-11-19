@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "math_extras.h": "c",
+        "cmath": "c"
+    }
+}

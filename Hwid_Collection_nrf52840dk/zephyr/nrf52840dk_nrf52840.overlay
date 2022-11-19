@@ -1,0 +1,22 @@
+/ {
+    aliases {
+        lora0 = &lora;
+    };
+};
+
+&spi1 {
+	sck-pin = <47>;
+	miso-pin = <46>;
+	mosi-pin = <45>;
+	cs-gpios = <&arduino_header 16 GPIO_ACTIVE_LOW>;
+
+	lora: sx1280@0 {
+		compatible = "semtech,sx1280";
+		reg = <0>;
+		label = "sx1280";
+		reset-gpios = <&arduino_header 15 GPIO_ACTIVE_LOW>;
+		dio-gpios = <&arduino_header 14 GPIO_ACTIVE_HIGH>;
+		spi-max-frequency = <1000000>;
+		power-amplifier-output = "pa-boost";
+	};
+};
